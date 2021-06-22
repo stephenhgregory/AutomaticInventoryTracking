@@ -1,0 +1,9 @@
+item {
+    id: 1
+    name: 'mbusi_label'
+}
+
+item {
+    id: 2
+    name: 'mbusi_location_label'
+}

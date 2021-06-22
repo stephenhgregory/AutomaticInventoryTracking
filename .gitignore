@@ -1,0 +1,36 @@
+# Place file/folder paths here to ignore...
+
+# Pycache
+utilities/__pycache__/*
+
+# tensorflow and retraining data
+tensorflow/models
+tensorflow.model_retraining/images
+
+# Local OS and bytecode files
+**/__pycache__
+**/.DS_Store
+
+# PyCharm
+.idea
+
+# Tensorflow files used for model training (Some checkpoint files, annotations etc.)
+tensorflow/object_detection_training/models/
+tensorflow/models/
+tensorflow/object_detection_training/pre-trained-models/
+tensorflow/object_detection_training/images/
+tensorflow/object_detection_training/annotations/train.record
+tensorflow/object_detection_training/annotations/test.record
+tensorflow/object_detection_training/exported-models/my_ssd_mobilenet_v2_fpnlite/saved_model/assets/
+
+# Images / Training data
+images/
+
+# Videos
+videos/
+
+# Resources
+resources/
+
+# Compressed data archives
+dataArchives
